@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f9fc">
+  <meta name="description" content="Woon Wen Tao — Computer Science graduate and junior web developer portfolio.">
+  <title>Woon Wen Tao | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Woon Wen Tao home"><span class="brand-mark">WT</span><span>woon<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> OPEN TO WEB DEVELOPMENT OPPORTUNITIES</div>
+          <p class="hero-kicker">Hello, I'm</p>
+          <h1>Woon Wen Tao<span class="accent">.</span></h1>
+          <h2>Computer Science graduate <br><span class="muted">building useful web experiences.</span></h2>
+          <p class="hero-description">I enjoy turning ideas into practical applications — from frontend interfaces to backend logic and database-driven features.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="button button-secondary" href="assets/Woon_Wen_Tao_Resume.pdf" target="_blank" rel="noopener">View resume <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span>Based in Malaysia</span><i></i><span>MMU · B.CompSc (Cybersecurity)</span></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="photo-frame">
+            <img src="assets/images/profile-photo.jpg" alt="Portrait of Woon Wen Tao" class="profile-photo" onerror="this.onerror=null;this.src='assets/images/profile-photo-placeholder.svg';">
+            <div class="photo-caption"><span class="caption-mark">WT</span><span><strong>Woon Wen Tao</strong><small>Developer Portfolio · 2026</small></span></div>
+          </div>
+          <div class="floating-card floating-top"><span class="mini-icon">⌘</span><span><strong>Full-stack mindset</strong><small>Frontend · Backend · Database</small></span></div>
+          <div class="floating-card floating-bottom"><span class="spark">✳</span><span><strong>Curious by nature</strong><small>Always learning and improving</small></span></div>
+          <div class="hero-orbit"></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 / 05</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="section-intro reveal"><p class="section-label">01 — ABOUT ME</p><h2>Developer with a <span class="serif-accent">curious mind.</span></h2></div>
+        <div class="about-content reveal">
+          <p class="lead">I’m a Computer Science graduate from Multimedia University with a background in cybersecurity and hands-on experience building web applications.</p>
+          <p>During my internship, I worked on a recruitment management system using React, Node.js, Express and PostgreSQL. I have also built a PHP and MySQL online bookstore as an academic project. I’m now looking to grow as a web developer and contribute to real-world software projects.</p>
+          <div class="stats-grid">
+            <div class="stat"><strong>3.80</strong><span>Degree CGPA</span></div>
+            <div class="stat"><strong>3</strong><span>Featured projects</span></div>
+            <div class="stat"><strong>2025</strong><span>Developer internship</span></div>
+          </div>
+          <div class="education-line"><span class="education-icon">✦</span><div><strong>Bachelor of Computer Science (Cybersecurity)</strong><small>Multimedia University · Cyberjaya · 2023–2026</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="section-label">02 — SELECTED WORK</p><h2>Projects that show <span class="serif-accent">how I build.</span></h2></div><p class="heading-note">A selection of academic and internship work across web development and applied machine learning.</p></div>
+        <div class="project-list">
+          <article class="project-card project-featured reveal">
+            <div class="project-image"><img src="assets/images/booknest-preview.svg" alt="BookNest online bookstore interface preview"><span class="image-tag">PHP · MYSQL</span></div>
+            <div class="project-info"><div class="project-number">01 / E-COMMERCE WEB APPLICATION</div><h3>BookNest</h3><p class="project-summary">A mini online bookstore with customer shopping flows and an administrator dashboard for managing books, orders and inventory.</p>
+              <div class="tag-list"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <button class="text-link project-open" data-project="booknest">Explore project <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image"><img src="assets/images/recruitment-preview.svg" alt="Recruitment management dashboard preview"><span class="image-tag">FULL-STACK INTERNSHIP</span></div>
+            <div class="project-info"><div class="project-number">02 / INTERNSHIP PROJECT</div><h3>Recruitment Management System</h3><p class="project-summary">A full-stack system supporting recruitment workflows, applicant records, file handling and role-based access.</p>
+              <div class="tag-list"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>PostgreSQL</span></div>
+              <button class="text-link project-open" data-project="recruitment">Explore project <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image"><img src="assets/images/veriqurl-preview.svg" alt="VeriqURL phishing detection dashboard preview"><span class="image-tag">FINAL YEAR PROJECT</span></div>
+            <div class="project-info"><div class="project-number">03 / MACHINE LEARNING WEB APP</div><h3>VeriqURL</h3><p class="project-summary">A lightweight URL-based phishing detection tool combining machine learning predictions with understandable risk explanations.</p>
+              <div class="tag-list"><span>Python</span><span>Streamlit</span><span>Scikit-learn</span><span>PyTorch</span></div>
+              <button class="text-link project-open" data-project="veriqurl">Explore project <span>↗</span></button>
+            </div>
+          </article>
+        </div>
+        <p class="confidential-note"><span>ⓘ</span> Some internship project details are intentionally kept high-level to respect company confidentiality.</p>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="section-label">03 — TOOLKIT</p><h2>Tools I work <span class="serif-accent">with.</span></h2></div><p class="heading-note">Technologies I have used in projects, coursework or development experience.</p></div>
+        <div class="skills-grid">
+          <div class="skill-group reveal"><span class="skill-icon">⌘</span><h3>Frontend</h3><p>Building interfaces and responsive layouts.</p><div class="skill-items"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span></div></div>
+          <div class="skill-group reveal"><span class="skill-icon">⌁</span><h3>Backend</h3><p>Application logic, APIs and server-side features.</p><div class="skill-items"><span>PHP</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span></div></div>
+          <div class="skill-group reveal"><span class="skill-icon">▦</span><h3>Database</h3><p>Structuring, querying and managing application data.</p><div class="skill-items"><span>MySQL</span><span>PostgreSQL</span><span>SQL</span></div></div>
+          <div class="skill-group reveal"><span class="skill-icon">⌬</span><h3>Tools & Other</h3><p>Development workflow and applied computing.</p><div class="skill-items"><span>Git</span><span>GitHub</span><span>Postman</span><span>Python</span><span>PyTorch</span><span>Scikit-learn</span></div></div>
+        </div>
+        <p class="skills-footnote">I’m continuously strengthening my PHP and MySQL skills and expanding my practical web development experience.</p>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container two-column">
+        <div class="section-intro reveal"><p class="section-label">04 — EXPERIENCE</p><h2>Learning through <span class="serif-accent">building.</span></h2></div>
+        <div class="timeline reveal">
+          <div class="timeline-item"><span class="timeline-date">JUL 2025 — OCT 2025</span><h3>Full Stack System Developer Intern</h3><p class="timeline-company">Eternity Recruitment Sdn. Bhd.</p><ul><li>Contributed to a recruitment management system using React.js, Node.js, Express.js and PostgreSQL.</li><li>Worked on REST API endpoints, database schema design, authentication and role-based access control.</li><li>Developed applicant management, file upload, notifications and PDF export features.</li><li>Worked with server-side filtering, sorting and pagination.</li></ul></div>
+          <div class="timeline-item"><span class="timeline-date">2023 — 2026</span><h3>Bachelor of Computer Science (Cybersecurity)</h3><p class="timeline-company">Multimedia University · CGPA 3.80 / 4.00</p><p>Built a foundation in software development, databases, networking and cybersecurity through coursework and projects.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-inner reveal"><p class="section-label">05 — GET IN TOUCH</p><h2>Have a project or opportunity<br>in mind? <span class="serif-accent">Let’s connect.</span></h2><a class="contact-email" href="mailto:woonwentao@gmail.com">woonwentao@gmail.com <span>↗</span></a>
+        <div class="social-links"><a href="https://github.com/WT0715" target="_blank" rel="noopener">GitHub ↗</a><a href="https://linkedin.com/in/woon-wen-tao" target="_blank" rel="noopener">LinkedIn ↗</a><a href="assets/Woon_Wen_Tao_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">WT</span><span>woon<span class="brand-dot">.</span></span></a><span>Designed & built by Woon Wen Tao · 2026</span><a href="#home">Back to top ↑</a></div></footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel"><button class="modal-close" aria-label="Close project details" data-close-modal>×</button><p class="section-label" id="modalEyebrow">PROJECT DETAILS</p><h2 id="modalTitle"></h2><p id="modalDescription" class="modal-description"></p><div class="modal-columns"><div><h3>My work / key features</h3><ul id="modalFeatures"></ul></div><div><h3>Technologies</h3><div class="tag-list" id="modalTags"></div><p class="modal-disclaimer" id="modalNote"></p></div></div></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
